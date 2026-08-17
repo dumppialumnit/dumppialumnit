@@ -1,6 +1,7 @@
 ---
 title: Liity jäseneksi
 description: Dumppi Alumnit ry:n jäseneksi liittyminen
+heroImage: /images/pingviinit.jpeg
 ---
 
 Liity Dumppi Alumnit ry:n jäseneksi alla olevalla lomakkeella. Jäsenmaksun määrä päätetään vuosittain syyskokouksessa. Vuoden 2026 jäsenmaksu on 0 euroa. Yhdistyksen jäseneksi voi hakea Jyväskylän yliopiston Informaatioteknologian tiedekunnasta tai sen edeltäjistä valmistunut Dumppi ry:n edustama pääaineopiskelija tai siellä merkittävästi opintoja suorittanut tai siellä työskennellyt henkilö.

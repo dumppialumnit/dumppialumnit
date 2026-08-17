@@ -15,8 +15,7 @@ const { Content } = await render(page);
 ---
 
 <PageLayout
-  title={page.data.title}
-  description={page.data.description}
+  {...page.data}
 >
   <article>
     <Content />

@@ -1,6 +1,7 @@
 ---
 title: 'Dumppi Alumnit ry'
 description: 'Dumppi Alumnit ry on Jyväskylän yliopiston tietojärjestelmätieteen alumnien yhteisö.'
+heroImage: /images/pingviinit.jpeg
 ---
 
 # Dumppi Alumnit ry
