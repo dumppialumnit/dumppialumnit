@@ -1,4 +1,4 @@
-<nav aria-label="Päänavigaatio">
+<nav class="navigation" aria-label="Päänavigaatio">
   <ul>
     <li>
       <a href="/">Etusivu</a>
@@ -21,3 +21,31 @@
     </li>
   </ul>
 </nav>
+
+<style>
+  .navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .navigation a {
+    color: var(--color-text);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .navigation a:hover {
+    color: var(--color-primary);
+  }
+
+  @media (max-width: 700px) {
+    .navigation ul {
+      gap: var(--space-3);
+    }
+  }
+</style>

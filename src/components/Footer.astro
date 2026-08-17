@@ -1,7 +1,29 @@
-<footer>
-  <div>
+<footer class="site-footer">
+  <div class="container">
     <p>
       © {new Date().getFullYear()} Dumppi Alumnit ry
     </p>
   </div>
 </footer>
+
+<style>
+  .site-footer {
+    margin-top: var(--space-9);
+    padding-block: var(--space-7);
+    background: var(--color-surface-muted);
+    color: var(--color-text-muted);
+  }
+
+  .site-footer p {
+    margin: 0;
+    font-size: var(--font-size-sm);
+  }
+
+  .container {
+    width: min(
+      calc(100% - 2 * var(--space-5)),
+      var(--content-width)
+    );
+    margin-inline: auto;
+  }
+</style>
