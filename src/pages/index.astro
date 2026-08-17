@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import PageLayout from '../layouts/PageLayout.astro';
+import InstagramEmbed from '../components/InstagramEmbed.astro';
 
 const pages = await getCollection('pages');
 
@@ -19,5 +20,6 @@ const { Content } = await render(page);
 >
   <article>
     <Content />
+    <InstagramEmbed />
   </article>
 </PageLayout>
