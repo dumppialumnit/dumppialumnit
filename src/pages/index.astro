@@ -1,0 +1,23 @@
+---
+import { getCollection, render } from 'astro:content';
+import PageLayout from '../layouts/PageLayout.astro';
+
+const pages = await getCollection('pages');
+
+const page = pages.find((page) => page.id === 'index');
+
+if (!page) {
+  throw new Error('Could not find src/content/pages/index.md');
+}
+
+const { Content } = await render(page);
+---
+
+<PageLayout
+  title={page.data.title}
+  description={page.data.description}
+>
+  <article>
+    <Content />
+  </article>
+</PageLayout>
