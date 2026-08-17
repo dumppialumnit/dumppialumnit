@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
+    "deploy": "wrangler deploy",
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
@@ -17,7 +18,8 @@
   },
   "devDependencies": {
     "oxfmt": "^0.63.0",
-    "oxlint": "^1.78.0"
+    "oxlint": "^1.78.0",
+    "wrangler": "^4.123.0"
   },
   "engines": {
     "node": ">=22.12.0"

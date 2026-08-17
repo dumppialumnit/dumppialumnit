@@ -1,0 +1,7 @@
+{
+  "name": "dumppialumnit",
+  "compatibility_date": "2026-08-17", // Update to the day you deploy
+  "assets": {
+    "directory": "./dist",
+  },
+}
