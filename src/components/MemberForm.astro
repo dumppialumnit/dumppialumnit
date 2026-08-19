@@ -1,0 +1,24 @@
+---
+const GOOGLE_FORMS_LINK =
+  "https://docs.google.com/forms/d/e/1FAIpQLSda7T2GSY87WLu12YeW4oyqwPrZ-wYENQhpE-m3KYfJe_KK2w";
+---
+
+<!-- Paste the membership form embed code here and adjust height -->
+<iframe
+  src={`${GOOGLE_FORMS_LINK}/viewform?embedded=true`}
+  width="100%"
+  height="2000"
+  frameborder="0"
+  marginheight="0"
+  marginwidth="0"
+>
+  Loading…
+</iframe>
+
+<style>
+  iframe {
+    background-color: var(--color-surface-muted);
+    border-radius: var(--radius-md);
+    padding-block: var(--space-4);
+  }
+</style>
