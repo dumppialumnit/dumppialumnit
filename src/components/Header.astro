@@ -1,12 +1,12 @@
 ---
-import Navigation from './Navigation.astro';
+import Navigation from "./Navigation.astro";
 ---
 
 <header class="site-header">
   <div class="container site-header__inner">
     <a class="site-logo" href="/">
-      <span class="site-logo__name">Dumppi</span>
-      <span class="site-logo__suffix">Alumnit</span>
+      <img src="images/alumnit-logo.png" class="site-logo__image" />
+      <span class="site-logo__name">Dumppi Alumnit</span>
     </a>
 
     <Navigation />
@@ -23,13 +23,15 @@ import Navigation from './Navigation.astro';
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     min-height: 5rem;
-    gap: var(--space-6);
+    gap: var(--space-4);
+    padding-block: var(--space-3);
   }
 
   .site-logo {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 0.4rem;
 
     color: var(--color-text);
@@ -37,23 +39,18 @@ import Navigation from './Navigation.astro';
     white-space: nowrap;
   }
 
+  .site-logo__image {
+    height: 4rem;
+  }
+
   .site-logo__name {
     color: var(--color-primary);
-    font-size: 1.5rem;
+    font-size: var(--font-size-xl);
     font-weight: 800;
     letter-spacing: -0.04em;
   }
 
-  .site-logo__suffix {
-    font-size: 1rem;
-    font-weight: 600;
-  }
-
-  @media (max-width: 700px) {
-    .site-header__inner {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-block: var(--space-4);
-    }
+  .site-logo__name:hover {
+    color: var(--color-primary-dark);
   }
 </style>

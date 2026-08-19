@@ -1,11 +1,8 @@
 :root {
   /* Brand */
-  --color-primary: #8f1538;
-  --color-primary-hover: #74112e;
-  --color-primary-light: #f5e9ed;
-
-  --color-accent: #c9a227;
-  --color-accent-light: #f7f1dc;
+  --color-primary: rgb(159 29 17);
+  --color-primary-dark: color-mix(in oklab, var(--color-primary) 85%, black);
+  --color-primary-light: color-mix(in oklab, var(--color-primary) 85%, white);
 
   /* Surfaces */
   --color-background: #fcfbfa;
@@ -18,7 +15,7 @@
 
   /* UI */
   --color-border: #ded8d8;
-  --color-focus: #8f1538;
+  --color-focus: var(--color-primary);
 
   /* Typography */
   --font-body:
@@ -38,7 +35,7 @@
 
   /* Layout */
   --content-width: 1100px;
-  --reading-width: 760px;
+  --reading-width: 80ch;
 
   /* Spacing */
   --space-1: 0.25rem;
