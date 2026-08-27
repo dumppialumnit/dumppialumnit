@@ -10,7 +10,7 @@ heroImage: /images/pingviinit.jpeg
 
 Dumppi Alumnit ry kokoaa yhteen Jyväskylän yliopiston tietojärjestelmätieteen alumneja.
 
-[Liity jäseneksi](/liity-jaseneksi)
+[Liity jäseneksi](/dumppialumnit/liity-jaseneksi)
 
 ## Dumppi Alumnit
 
