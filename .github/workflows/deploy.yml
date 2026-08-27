@@ -18,6 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - run: corepack enable
+        shell: bash
       - name: Checkout your repository using git
         uses: actions/checkout@v7
       - name: Install, build, and upload your site
