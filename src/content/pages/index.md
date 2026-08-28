@@ -1,7 +1,7 @@
 ---
 title: 'Dumppi Alumnit ry'
 description: 'Dumppi Alumnit ry on Jyväskylän yliopiston tietojärjestelmätieteen alumnien yhteisö.'
-heroImage: /dumppialumnit/images/pingviinit.jpeg
+heroImage: /images/pingviinit.jpeg
 ---
 
 # Dumppi Alumnit ry
@@ -10,7 +10,7 @@ heroImage: /dumppialumnit/images/pingviinit.jpeg
 
 Dumppi Alumnit ry kokoaa yhteen Jyväskylän yliopiston tietojärjestelmätieteen alumneja.
 
-[Liity jäseneksi](/dumppialumnit/liity-jaseneksi)
+[Liity jäseneksi](/liity-jaseneksi)
 
 ## Dumppi Alumnit
 
@@ -20,4 +20,4 @@ Yhdistyksen tarkoituksena on ylläpitää ja kehittää alumnien välistä yhtei
 
 ## Instagram
 
-Seuraa Dumppi Alumnien kuulumisia [Instagramissa](https://www.instagram.com/dumppialumnit/).
+Seuraa Dumppi Alumnien kuulumisia [Instagramissa](https://www.instagram.com/).
